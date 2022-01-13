@@ -1,5 +1,5 @@
 There are many ways to change the text in markdown.
-Use the * and _ around the word you want to
+Use the * or _ around the word you want to
 italized. For example *Malarky*
 
 ```
@@ -19,7 +19,8 @@ This creates a line:
 * is not a 
 * List
 
-Here is 
+Here is a screen shot of my code:
 ![Image](ss.png)
 
+Here are some penguins
 ![Image](penguin.jpeg)
