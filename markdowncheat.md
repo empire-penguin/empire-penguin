@@ -22,5 +22,4 @@ This creates a line:
 Here is a screen shot of my code:
 ![Image](ss.png)
 
-Here are some penguins
-![Image](penguin.jpeg)
+[Lab Report 1](markdowncheat.html)
