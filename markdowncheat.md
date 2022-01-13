@@ -8,6 +8,7 @@ print("Hello World");
 ```
 
 This creates a line:
+
 ***
 
 1. One
@@ -18,3 +19,8 @@ This creates a line:
 * is not a 
 * List
 
+<img 
+    src="penguin.jpeg"
+    alt="Markdown Monster icon"
+    style="float: left; margin-right: 10px;"
+/>
