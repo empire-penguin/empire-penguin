@@ -19,4 +19,6 @@ This creates a line:
 * is not a 
 * List
 
+Here is 
+![Image](penguin.jpeg)
 ![Image](penguin.jpeg)
