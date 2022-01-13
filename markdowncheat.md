@@ -21,5 +21,3 @@ This creates a line:
 
 Here is a screen shot of my code:
 ![Image](ss.png)
-
-[Lab Report 1](markdowncheat.html)
