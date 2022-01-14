@@ -21,5 +21,3 @@ This creates a line:
 
 Here is a screen shot of my code:
 ![Image](ss.png)
-
-[Lab Report 1](https://empire-penguin.github.io/lab-reports/lab-report-1-week-2.html)
