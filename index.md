@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 Welcome to my school project demonstration page
 
 https://empire-penguin.github.io/empire-penguin/
