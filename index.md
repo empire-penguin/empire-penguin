@@ -1,6 +1,3 @@
-<head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-</head>
 
 Welcome to my school project demonstration page
 
