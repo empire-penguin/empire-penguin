@@ -20,4 +20,4 @@ This creates a line:
 * List
 
 Here is a screen shot of my code:
-![Image](ss.png)
+![Image](./images/ss.png)
