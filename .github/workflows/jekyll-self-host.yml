@@ -1,0 +1,25 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  # Runs on pushes targeting the main branch
+  push:
+    branches: ["main"]
+
+jobs:
+  # Build job
+  build:
+    runs-on: [self-hosted, heaviside]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t localhost/empire-penguin:latest .
+
+      - name: Run Jekyll build
+        run: docker run --rm -v "${GITHUB_WORKSPACE}:/website" localhost/empire-penguin:latest sh -c "JEKYLL_ENV=production bundle exec jekyll build"
+
+      - name: Deploy to self hosted website
+        run: |
+          docker run --rm -v "${GITHUB_WORKSPACE}:/website" localhost/empire-penguin:latest sh -c "${{ secrets.RSYNC_SIGNALSLAB }}"
+

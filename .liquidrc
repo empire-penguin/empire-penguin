@@ -1,0 +1,14 @@
+{
+  "engine": "jekyll",
+  "source": "src",
+  "output": "dist",
+  "plugins": [
+    "@liquid-labs/liquid-labs-jekyll-plugin"
+  ],
+  "pluginOptions": {
+    "jekyll": {
+      "config": "_config.yml",
+      "drafts": true
+    }
+  }
+}

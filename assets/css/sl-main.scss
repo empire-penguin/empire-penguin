@@ -1,0 +1,7 @@
+--- 
+search: false 
+--- 
+@charset "utf-8";
+
+@import "signals-lab/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "signals-lab";
