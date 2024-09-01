@@ -1,0 +1,12 @@
+{%- assign _sorted_list = include.articles -%}
+
+<br>
+<div class="demo-list">
+  {%- for post in _sorted_list -%}
+  {%- assign _video_title = post.short_title -%}
+  {%- assign _video_id = post.video_id -%}
+  {%- assign _video_provider = post.video_provider -%}
+  <h3>{{ _video_title }}</h3>
+  {%- include video id=_video_id provider=_video_provider -%}
+  {%- endfor -%}
+</div>
