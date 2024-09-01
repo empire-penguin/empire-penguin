@@ -1,7 +1,7 @@
 title: Gavin Roberts - Projects Blog
 description: >
 url: https://repos.gavinsroberts.com
-baseurl: "/empire-penguin"
+baseurl: "/"
 minimal_mistakes_skin: default
 search: true
 
